@@ -72,8 +72,8 @@ functions:
     handler: update.main
     events:
       - http:
-        path: notes/{id}
-        method: put
+          path: notes/{id}
+          method: put
 
   delete:
     # Defines an HTTP API endpoint that calls the main function in delete.js
@@ -82,5 +82,5 @@ functions:
     handler: delete.main
     events:
       - http:
-        path: notes/{id}
-        method: delete
+          path: notes/{id}
+          method: delete
